@@ -22,4 +22,7 @@ p {
 .poem {
   margin: auto;
   flex-direction: column;
+  border: 2px solid;
+  border-color: green;
+  padding: 20px;
 }
