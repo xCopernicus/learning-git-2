@@ -1,0 +1,29 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: lightblue;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  margin: 0 0 48px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px 0;
+}
+
+.poem {
+  margin: auto;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  border: 2px solid green;
+  padding: 20px;
+}
